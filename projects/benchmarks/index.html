@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2015 Calinou
+This source code form is available under CC0 1.0 Universal.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Programming language implementation benchmarks</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1>Programming language <em>implementation</em> benchmarks</h1>
+    <h2>Prime number generation</h2>
+    <h3><a href="prime/">Go to source code</a></h3>
+
+    <p>
+      The number shown is the (approximate) highest prime number found in 10 seconds. The languages are sorted by alphabetical order.
+    </p>
+    <p>
+      <strong>CPU:</strong> Intel Core i7-2600K @ 3.4 GHz (HyperThreading enabled, Turbo Mode enabled)<br>
+      <strong>RAM:</strong> 8 GB DDR3 1600 MHz CAS 9<br>
+      <strong>OS:</strong> Debian stretch (testing) 64-bit
+    </p>
+    <p>
+      The shell command used was: <code>timeout 10 /path/to/program</code>
+    </p>
+    <br>
+
+    <ul>
+               <li><strong>C++</strong> (g++-5): <span class="score score-3">7959k</span></li>
+         <li><strong>C++</strong> (clang++-3.5): <span class="score score-3">7570k</span></li>
+                 <li><strong>C#</strong> (mono): <span class="score score-4">9834k</span></li>
+       <li><strong>GDScript</strong> (godot -s): <span class="score score-0">291k</span></li>
+      <li><strong>GDScript</strong> (optimized): <span class="score score-0">693k</span></li>
+             <li><strong>Go</strong> (go build): <span class="score score-4">12687k</span></li>
+              <li><strong>Java</strong> (javac): <span class="score score-4">13280k</span></li>
+         <li><strong>JavaScript</strong> (node): <span class="score score-3">7478k</span></li>
+                 <li><strong>Lua</strong> (lua): <span class="score score-1">1114k</span></li>
+              <li><strong>Lua</strong> (luajit): <span class="score score-4">9743k</span></li>
+             <li><strong>PHP 5.6</strong> (php): <span class="score score-1">2254k</span></li>
+                <li><strong>PHP</strong> (hhvm): <span class="score score-2">4793k</span></li>
+         <li><strong>Python 2</strong> (python): <span class="score score-1">1044k</span></li>
+        <li><strong>Python 3</strong> (python3): <span class="score score-0">693k</span></li>
+             <li><strong>Python</strong> (pypy): <span class="score score-2">4977k</span></li>
+               <li><strong>Ruby</strong> (ruby): <span class="score score-1">1767k</span></li>
+              <li><strong>Ruby</strong> (jruby): <span class="score score-1">1114k</span></li>
+        <li><strong>Rust 1.1.0</strong> (rustc): <span class="score score-4">10702k</span></li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+@import "fonts"     // All fonts
+@import "navbar"    // Navigation bar (made semi-transparent)
+@import "jumbotron" // Jumbotron highlights the main content on a page
+@import "content"   // Content (with responsive margins)
+@import "portfolio" // Portfolio: shows what I've done
+@import "footer"    // Footer: copyright information, impressum
+
+::-moz-selection
+  background-color #18bc9c
+  color #fff
+
+::selection
+  background-color #18bc9c
+  color #fff
+
+html
+  font-size 1.15rem
+
+body
+  font-family "Lato Regular"
+  background-color #f2f2f2
+  cursor default
+
+h2
+  margin 0 0 0 2rem
+
+h3
+  text-align center
+  margin 3rem 0 2rem 0
+
+p,
+li
+  font-size .95rem
+  line-height 1.6
+
+p
+  margin 1.6rem 0
+
+h2
+  margin 1rem 0
+
+a,
+a:hover,
+a:focus,
+a:active  // Transition for all link types
+  transition .15s color
+  text-decoration none
+
+a
+  color #16a085
+
+  &:hover,
+  &:focus
+    color #19b798
+
+  &:active
+    color #375
+
+a.anchor
+  color #bbb
+  transition $transition color
+  margin-right .25rem
+
+  &:hover,
+  &:focus
+    color #777
+    transition .15s color
+
+  &:active
+    color #000
+    transition .15s color
+
+.large
+  font-size 2.5rem
+
+.btn-primary,
+.btn-info
+  margin-top 1rem
+  font-size 1rem
+
+.center
+  text-align center
+
+.skill
+  font-size .8rem
+  margin-left .5rem
+
+// Full container width (Bootstrap override)
+.container
+  width 100%

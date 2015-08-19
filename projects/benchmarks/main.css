@@ -1,0 +1,66 @@
+/* Copyright (c) 2015 Calinou
+ * This source code form is available under CC0 1.0 Universal.
+ */
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: default;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  margin-left: 25vw;
+}
+
+li {
+  border-bottom: 1px solid #ccc;
+  width: 45vw;
+  list-style: none;
+}
+
+a {
+  color: #468;
+  text-decoration: none;
+  transition: 0.15s color;
+}
+
+a:hover,
+a:focus {
+  color: #68a;
+  text-decoration: underline;
+  transition: 0.15s color;
+}
+
+a:active {
+  color: #246;
+  transition: 0.15s color;
+}
+
+.score {
+  border-radius: 0.25em;
+  float: right;
+}
+
+.score-0 {
+  background-color: #f55;
+  color: #fff;
+}
+
+.score-1 {
+  background-color: #fb4;
+}
+
+.score-2 {
+  background-color: #ff4;
+}
+
+.score-3 {
+  background-color: #bf4;
+}
+
+.score-4 {
+  background-color: #5f5;
+}

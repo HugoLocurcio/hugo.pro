@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  src: local("Roboto Slab"),
+       url("../fonts/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  src: local("Roboto Slab"),
+       url("../fonts/RobotoSlab-Bold.ttf");
+}
+
+body {
+  background-color: #222;
+  cursor: default;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.navbar .container {
+  background-color: #080808;
+}
+
+.navbar-brand {
+  margin-left: 1em !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  transition: 0.15s;
+}
+
+.dropdown-menu a {
+  transition: 0.15s;
+}
+
+.dropdown-menu a:hover {
+  color: #fff !important;
+  background-color: #494 !important;
+  transition: 0.15s;
+}
+
+a,
+a:hover {
+  transition: 0.15s;
+}
+
+.jumbotron {
+  border-radius: 0 !important;
+  margin: 0 -1.075em !important;
+}
+
+.jumbotron {
+  background-image: url("../media/background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 0 0 0.5em #000;
+  border-radius: 0;
+}
+
+.jumbotron h1 {
+  margin-left: 1.5em !important;
+  color: #fff;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.jumbotron h2 {
+  margin-left: 1.5em !important;
+  color: #fff;
+  text-align: center;
+}
+
+.jumbotron .btn {
+  margin-left: 1.5em !important;
+  margin-top: 5em;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  background-color: #494;
+  border-color: transparent;
+  text-shadow: none;
+  box-shadow: 0 0 0.5em #000;
+  transition: 0.15s;
+}
+
+.jumbotron .btn:hover,
+.jumbotron .btn:focus {
+  background-color: #fff;
+  color: #494;
+  text-shadow: none;
+}
+
+.jumbotron .btn:active {
+  background-color: #8f8;
+  color: #fff;
+}
+
+.jumbotron-info {
+  margin-left: 1.5em !important;
+  margin-top: 1em;
+  line-height: 2;
+  text-shadow: 0 0 0.25em #000;
+}
+
+.center {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #333;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.618;
+  margin-bottom: 2em;
+}
+
+footer p {
+  margin: 1em 5%;
+  color: #888;
+  font-size: 1em;
+}

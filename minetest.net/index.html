@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Home - Minetest</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Minetest</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">IRC</a></li>
+                  <li><a href="https://forum.minetest.net">Forum</a></li>
+                  <li><a href="//wiki.minetest.net">Wiki</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Development <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="//dev.minetest.net">Developer wiki</a></li>
+                  <li><a href="https://github.com/minetest/minetest">GitHub</a></li>
+                  <li><a href="#">Mailing lists</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <h1>Meet <strong>Minetest</strong>.</h1>
+        <h2>A free, open source, moddable Minecraft-style game.</h2>
+
+        <div class="center"><a class="btn btn-primary" href="#">Free download</a><br><div class="jumbotron-info">0.4.12, released on 2015-02-18<br>For Windows, GNU/Linux, OS X, FreeBSD and Android</div></div>
+      </div>
+      <h1 id="about">Lean and fast.</h1>
+      <p>Minetest follows the KISS principle — keep it simple, stupid — and thus runs fast on all kinds of PCs. The server counterpart is quite light on bandwidth too.</p>
+
+      <h1>Freedom to play.</h1>
+      <p>Minetest is both <strong>gratis</strong> and <strong>libre</strong>. This means you can download it at no cost, and you have the freedom to use it for any purpose, to study how it works, distribute copies of it and to distribute modified copies.</p>
+
+      <h1>Infinitely moddable.</h1>
+
+      <p>With its <a href="//lua.org">Lua</a>-powered modding support, accelerated by LuaJIT, Minetest lets you play and create mods in unexpected ways. You can install mods that just add decorative blocks, but you can also get mobs, transportation systems, additional chat commands and much more.</p>
+    </div>
+
+    <footer>
+      <p>&copy; 2015 The Minetest Team. Code released under GNU LGPLv2.1+. Artwork released under CC BY-SA 3.0 or compatible licenses.</p>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

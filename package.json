@@ -1,0 +1,11 @@
+{
+  "name": "hugo.pro",
+  "version": "1.0.0",
+  "author": "Hugo",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-watch": "*"
+  }
+}
