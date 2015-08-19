@@ -13,26 +13,10 @@ module.exports = function(grunt) {
         }
       }
     },
-    browserSync: {
-      bsFiles: {
-        src : [
-          "*.html",
-          "mentions-legales/*.html",
-          "css/*.css",
-          "js/*.js"
-        ]
-      },
-      options: {
-        watchTask: true,
-        server: "./"
-      }
-    }
   });
 
   grunt.loadNpmTasks("grunt-contrib-stylus");
   grunt.loadNpmTasks("grunt-contrib-watch");
-  grunt.loadNpmTasks("grunt-browser-sync");
 
-  grunt.registerTask("default", ["browserSync", "watch"]);
-
+  grunt.registerTask("default", ["stylus"]);
 };
