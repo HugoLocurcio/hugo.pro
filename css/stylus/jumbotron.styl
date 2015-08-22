@@ -25,6 +25,7 @@
 
 .jumbotron
   background-image url("../media/background.jpg")
+  background-filter blur(5px)
   background-attachment fixed
   border-radius 0 !important // Remove default .jumbotron border-radius
   height 100vh
@@ -43,19 +44,10 @@
     font-family "Lato Regular", sans-serif
     text-align center
 
-  .btn-primary
-    background-color #48b
-
 @media (max-width 768px)
   .jumbotron
     h1
       margin-top 1em
-
-.jumbotron.reduced
-  height 50vh
-  min-height 22.5em
-  h1
-    margin-top 10vh
 
 @media (max-width 900px)
   .jumbotron
